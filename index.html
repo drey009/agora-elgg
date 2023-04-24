@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="shortcut icon" href="https://static-00.iconduck.com/assets.00/elgg-icon-512x512-drzjir0l.png" type="image/x-icon">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="fontawesome/css/all.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Conheça o ELGG</title>
+</head>
+
+<body>
+	<header>
+		<h1>Conheça o <span id="spani">ELGG</span></h1>
+		<button id="toggle-mode"><img src="icone.png"></button>
+	</header>
+	<div class="conteudo">
+		<h2>O que é? </h2>
+		<p> Então o app ELGG é uma software de código aberto, ele oferece uma espaço de blog, comunidades com fóruns de
+			discussões ou blogs comunitários, espaço para respositórios de arquivos,e-portifólio, tecnologia RSS para conteúdo
+			gerado dentro da rede.
+		</p>
+		<br>
+		<H3> O que é Plugin?</H3>
+		<p>
+			Então plugins são componemtes que podem ser desenvolvidos para extender fincionalidades do ELGG, adicionar novos
+			recursos, alterar visões de estilo do sistema.
+		</p>
+
+		<p> Um plugin é composto de um arquivo que ficam debtro kde uma pasta que possue o nome plugin. Os plugins ficam
+			dentro da pasta mod do ELGG.</p>
+		<br>
+		<p> VANTAGENS:código aberto, comunidades de programadores sempre crescentes e milhares de plugins já desenvolvidos
+			que
+			atendem,as necessidades da maioria dos projetos dps usuários. </p>
+		<br>
+		<p>DESVANTAGENS: em um desenvolvimento em HTML não contamos muito com a acessibilidade aos recursos dos aparelhos
+			móveis.</p>
+		<h3>Veja mais sobre:</h3>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/MA7w9Cncirg" title="YouTube video player"
+		 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+		 allowfullscreen></iframe>
+	</div>
+
+	<!-- MODO ESCURO -->
+	<script>
+		const toggleBtn = document.getElementById('toggle-mode');
+		const body = document.body;
+		const header = document.getElementById('head');
+
+
+		toggleBtn.addEventListener('click', function () {
+			body.classList.toggle('dark-mode');
+			header.classList.toggle('dark-mode-header');
+
+
+		})
+	</script>
+
+	<!-- RODAPÉ -->
+	<footer>
+		<div class="wrapper">
+			<div class="footer-box">
+				<div class="palavra-footer">
+					<img src="https://comasis.com/wp-content/uploads/bfi_thumb/desarrolloelgg-no697hxjqghqshdlcc80z6glwehvivaxmfp0ujvaby.png">
+					<h2>ELGG</h2>
+					<p>A maneira mais fácil de criar sua própria rede social.</p>
+				</div>
+			</div>
+			<div class="footer-box">
+				<div class="rede-footer">
+					<h2>Redes do <span class="names">Andrey</span> </h2>
+					<hr>
+					<ul class="footer-list footer-rede-list">
+
+						<li>
+							<a href="https://www.instagram.com/dreeyyy7/">
+								<i class="fab fa-instagram"></i>
+								<span class="rede">Instagram</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/andrey-ramos-449131270/">
+								<i class="fab fa-linkedin"></i>
+								<span class="rede">Linkedin</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/drey009">
+								<i class="fa-brands fa-github"></i>
+								<span class="rede">Github</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-box">
+				<h2>Redes do <span class="names">Eduardo</span> </h2>
+				<hr>
+				<ul class="footer-list">
+
+					<li>
+						<a href="https://instagram.com/eduardo_paivab?igshid=YmMyMTA2M2Y=">
+							<i class="fab fa-instagram"></i>
+							<span>Instagram</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/eduardo-barreto-53089424a/">
+							<i class="fab fa-linkedin"></i>
+							<span>Linkedin</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/dudubarreto123">
+							<i class="fa-brands fa-github"></i>
+
+							<span>Github</span>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="wrapper">
+				<p>Andrey e Eduardo - <span id="ano"> 2023</span></p>
+			</div>
+		</div>
+	</footer>
+
+
+</body>
+
+</html>

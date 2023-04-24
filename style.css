@@ -1,0 +1,197 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	font-family: 'Chivo Mono', monospace;
+	
+}
+.conteudo{
+	font-size: 30px;
+	position: absolute;
+	padding-bottom: 45vh;
+	text-align: justify;
+	margin: 30px;
+}
+/*CABEÇALHO*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 0 15px;
+
+}
+span{
+    color: brown;
+}
+#toggle-mode{
+    background-color: transparent;
+    border: none;
+    border-radius: 12px;
+	padding: 10px;
+	cursor: pointer;
+}
+#toggle-mode:active{
+    background-color: transparent;
+    border: none;
+    transform: scale(0.9);
+    
+}
+#toggle-mode img{
+    width: 40px;
+}
+
+/*MODO ESCURO*/
+.dark-mode-header{
+    color: #fbf0f3;
+    padding: 0 15px 0 15px;
+}
+.dark-mode #spani{
+	color: rgb(255, 238, 0);
+}
+.dark-mode {
+    background-color: rgb(19, 19, 19);
+    color: #ffffff;
+}
+
+.dark-mode #toggle-mode{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+}
+.dark-mode footer{
+	background-color: #666;
+	border-top: 5px solid rgb(255, 238, 0);
+}
+.dark-mode .palavra-footer h2 {
+	margin-top: 20px;
+	color: rgb(255, 238, 0);
+}
+.dark-mode .names{
+	color: rgb(255, 238, 0);
+}
+.dark-mode .footer-bottom #ano{
+	color: rgb(255, 238, 0);
+}
+/*RODAPÉ*/
+
+footer {
+	width: 100%;
+	display: block;
+	position: absolute;
+	top: 180vh;
+	background-color: /* #666*/black; 
+	padding: 5em 0;
+	padding-bottom: 40px;
+	border-top: 5px solid brown;
+	margin-top: 30px;
+}
+
+footer h2, footer p, footer a, footer span {
+	color: #D1D1D1;
+}
+
+footer h2 {
+	font-weight: 400;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer ul {
+	padding: 0;
+}
+
+footer li {
+	list-style: none;
+}
+
+.footer-box {
+	width: 31%;
+	padding: 1%;
+	float: left;
+}
+
+footer .wrapper:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.palavra-footer {
+	width: 80%;
+}
+
+.palavra-footer h2 {
+	margin-top: 20px;
+	color: brown;
+}
+
+.palavra-footer h2, .palavra-footer p {
+	margin-bottom: 20px;
+}
+.palavra-footer img{
+	width: 258px;
+}
+
+.footer-list li {
+	margin-bottom: 15px;
+}
+
+.footer-list a {
+	transition: 0.5s;
+}
+
+.footer-list a:hover {
+	color: #FFF;
+}
+
+.footer-list li:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.rede-footer {
+	width: 80%;
+}
+
+.footer-list.footer-rede-list span {
+	display: block;
+	float: none;
+}
+
+.fab {
+	font-size: 30px;
+	margin-right: 10px;
+	float: left;
+}
+.fa-brands {
+	font-size: 30px;
+	margin-right: 10px;
+	float: left;
+}
+
+.footer-list li span {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+footer .names{
+	color: brown;
+}
+.footer-bottom {
+	border-top: 1px solid #B2B2B2;
+}
+
+.footer-bottom p {
+	font-weight: 600;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+.footer-bottom #ano{
+	color: brown;
+}
